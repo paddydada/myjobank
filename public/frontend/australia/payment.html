@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Visa Answer</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   </head>
+   <body>
+      <section>
+         <div class="container">
+            <div class="workshop-card">
+               <div class="workshop-form">
+                  <div class="workshop-logo payment-section">
+                     <img src="./images/company-logo.png" alt="company logo">
+                     <div class="backBtn">
+                        <a href="register.html"><i class="fa-solid fa-arrow-left"></i></a>
+                     </div>
+                     <div class="summery-data">
+                        <div class="gst">Order Summery</div>
+                        <h5> ₹299.00 <del>₹1999</del></h5>
+                        <div class="row">
+                           <div class="col-7">
+                              <div class="gst">
+                                 SEO Workshop
+                              </div>
+                           </div>
+                           <div class="col-5">
+                              <div class="seo-price">
+                                 ₹1999
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-7">
+                              <div class="gst">
+                                 250+ ChartGPT prompts & 50+ AI tool list
+                              </div>
+                           </div>
+                           <div class="col-5">
+                              <div class="seo-price">
+                                 ₹3499
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-7">
+                              <div class="gst text-white">
+                                 Subtotal
+                              </div>
+                           </div>
+                           <div class="col-5">
+                              <div class="seo-price text-white">
+                                 ₹5498
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="summery-data">
+                        <div class="row">
+                           <div class="col-7">
+                              <div class="gst text-green">
+                                 Discount(80.03%)
+                              </div>
+                           </div>
+                           <div class="col-5">
+                              <div class="seo-price text-green">
+                                 -₹4400
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-7">
+                              <div class="gst">
+                                 GST @ 18%
+                              </div>
+                           </div>
+                           <div class="col-5">
+                              <div class="seo-price">
+                                 ₹197.64
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="total-payable">
+                        <div class="row">
+                           <div class="col-7">
+                              <div class="gst text-white">
+                                 Total Payable
+                              </div>
+                           </div>
+                           <div class="col-5">
+                              <div class="seo-price text-white">
+                                 ₹1295.64
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="payablecard">
+                        <a href="#" type="submit" class="NextBtn">Pay Now</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="workshop-footer">
+         <div class="container">
+            <p><i class="fa-regular fa-credit-card"></i> 100% secure transaction</p>
+            <h4>© 2024 visaanswer.All rights reserved</h4>
+         </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/owl.carousel.min.js"></script>
+      <script src="./js/scripts.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+      <script>
+         $(document).ready(function() {
+             // Initialize the plugin
+             var input = document.querySelector("#phone");
+             var iti = window.intlTelInput(input, {
+                 initialCountry: "",
+                 separateDialCode: true,
+                 utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js",
+             });
+         
+             // Fetch user's country based on their IP address
+             $.get("https://ipinfo.io", function(response) {
+                 var countryCode = response.country;
+                 iti.setCountry(countryCode);
+             }, "jsonp");
+         
+             // Listen for the form submission
+             $("#phoneForm").submit(function(event) {
+                 event.preventDefault();
+                 var phoneNumber = iti.getNumber();
+                 console.log(phoneNumber);
+                 // You can now send the phone number to your server for further processing
+             });
+         });
+      </script>
+   </body>
+</html>
