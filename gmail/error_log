@@ -1,0 +1,21 @@
+[07-Apr-2024 09:15:30 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php:1845
+Stack trace:
+#0 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php(1587): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/index.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php on line 1845
+[07-Apr-2024 09:16:20 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php:1845
+Stack trace:
+#0 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php(1587): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/index.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php on line 1845
+[07-Apr-2024 09:38:45 UTC] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: SMTP connect() failed. https://github.com/PHPMailer/PHPMailer/wiki/Troubleshooting in /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php:1845
+Stack trace:
+#0 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php(1587): PHPMailer\PHPMailer\PHPMailer->smtpSend()
+#1 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php(1423): PHPMailer\PHPMailer\PHPMailer->postSend()
+#2 /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/index.php(59): PHPMailer\PHPMailer\PHPMailer->send()
+#3 {main}
+  thrown in /home/l7kcw2n91chz/public_html/gmailsmtp-phpmailer-master/PHPMailer/src/PHPMailer.php on line 1845
